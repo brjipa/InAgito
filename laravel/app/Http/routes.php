@@ -15,7 +15,7 @@ Route::get('/', function () {
     return redirect('evento');
 });
 
-
+return 'outro teste de commit';
 Route::resource('usuario', 'UsuarioController');
 
 Route::resource('evento', 'EventoController');
